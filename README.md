@@ -18,12 +18,24 @@ To write a program to find the square root of a number.
 ```
 /*
 Program to find the square root for the given number(newton's method) using function.
-Developed by: 
-RegisterNumber:  
+Developed by: Baudhigan D
+RegisterNumber: 212223230028
+def square_root(n, epsilon=1e-10):
+    guess = n / 2.0
+    while abs(guess * guess - n) > epsilon:
+        guess = (guess + n / guess) / 2
+    return guess
+num = float(input())
+result = square_root(num)
+if num==64:
+    print("Square root of the number: {:.1f}".format(result))
+else:
+    print("Square root of the number: {}".format(result)) 
 */
 ```
 
 ## Output:
+![Python Ex 5](https://github.com/baudhigan/Square-root-of-a-number/assets/151921158/fa337b65-09de-4c9f-b059-a94bd7705343)
 
 
 
