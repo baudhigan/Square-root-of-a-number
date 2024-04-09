@@ -18,7 +18,7 @@ To write a program to find the square root of a number.
 ```
 /*
 Program to find the square root for the given number(newton's method) using function.
-Developed by: Baudhigan D
+Developed by: BAUDHIGAN D
 RegisterNumber: 212223230028
 def square_root(n, epsilon=1e-10):
     guess = n / 2.0
