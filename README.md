@@ -35,7 +35,7 @@ else:
 ```
 
 ## Output:
-![Python Ex 5](https://github.com/baudhigan/Square-root-of-a-number/assets/151921158/fa337b65-09de-4c9f-b059-a94bd7705343)
+![image](https://github.com/baudhigan/Square-root-of-a-number/assets/151921158/0f3061ba-2f71-4694-871a-b896f01e4fb3)
 
 
 
